@@ -1,6 +1,6 @@
 <?php
 
-namespace Saurav\Timezones;
+namespace Kuwar\Timezones;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -16,7 +16,7 @@ class TimezonesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'timezones');
 
         $this->publishes([
-            __DIR__.'/views' => base_path('resources/views/saurav/timezones'),
+            __DIR__.'/views' => base_path('resources/views/kuwar/timezones'),
         ]);
     }
 
@@ -29,6 +29,6 @@ class TimezonesServiceProvider extends ServiceProvider
     {
         include __DIR__ . '/routes/web.php';
 
-        $this->app->make('Saurav\Timezones\TimezonesController');
+        $this->app->make('Kuwar\Timezones\TimezonesController');
     }
 }

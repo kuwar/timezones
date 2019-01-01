@@ -1,11 +1,11 @@
 {
-    "name": "saurav/timezones",
-    "description": "A simple package to show timezone",
+    "name": "kuwar/timezones",
+    "description": "A simple package to show time according to timezone",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Saurav",
+            "name": "Shaurave Kumar Kuwar",
             "email": "kuwarsaurav21@gmail.com"
         }
     ],
@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saurav\\Timezones\\TimezonesServiceProvider"
+                "Kuwar\\Timezones\\TimezonesServiceProvider"
             ]
         }
     }

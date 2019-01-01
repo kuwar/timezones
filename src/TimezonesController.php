@@ -1,6 +1,6 @@
 <?php
 
-namespace Saurav\Timezones;
+namespace Kuwar\Timezones;
 
 use Illuminate\Http\Request;
 use Carbon\Carbon;
