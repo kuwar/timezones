@@ -1,0 +1,21 @@
+{
+    "name": "saurav/timezones",
+    "description": "A simple package to show timezone",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saurav",
+            "email": "kuwarsaurav21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saurav\\Timezones\\TimezonesServiceProvider"
+            ]
+        }
+    }
+}
